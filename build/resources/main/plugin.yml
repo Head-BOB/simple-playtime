@@ -1,0 +1,15 @@
+name: Playtime
+version: '1.0-SNAPSHOT'
+main: me.hunter.playtime.Playtime
+api-version: '1.21'
+
+commands:
+  playtime:
+    description: Shows your or another player's total playtime.
+    usage: /playtime [playername]
+    permission: playtime.use
+
+permissions:
+  playtime.use:
+    description: Allows use of the /playtime command.
+    default: true
